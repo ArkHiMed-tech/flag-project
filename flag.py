@@ -13,6 +13,7 @@ def goup():
     os.system('gpio -1 write 1 35')
     sleep(2.5)
     os.system('gpio -1 write 0 35')
+    return 'ok'
 
 if __name__ == '__main__':
     os.system('gpio -1 mode 33 out')
